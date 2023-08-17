@@ -19,8 +19,6 @@ El proyecto está estructurado en varios paquetes para organizar las diferentes 
 
 git clone https://github.com/tu-usuario/ClientAccessManagement-backend.git
 
-markdown
-Copy code
 
 2. Importa el proyecto en tu entorno de desarrollo preferido (por ejemplo, Eclipse, IntelliJ IDEA).
 
