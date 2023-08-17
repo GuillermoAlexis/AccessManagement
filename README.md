@@ -35,3 +35,11 @@ A continuación, se listan algunos de los endpoints disponibles en la API del ba
 - `/accesos`: Operaciones relacionadas con los accesos de usuarios.
 - `/permisos`: Operaciones relacionadas con los permisos de usuarios.
 - `/usuarios`: Operaciones relacionadas con los usuarios, incluido el inicio de sesión.
+
+Consideraciones para Docker Si deseas ejecutar la aplicación en Docker con una base de datos PostgreSQL, sigue estos pasos:
+
+Asegúrate de tener Docker instalado en tu máquina.
+Dirígete a la carpeta ./Docker/Postgres dentro del directorio del proyecto.
+Ejecuta el comando docker-compose up -d para crear los contenedores de la aplicación y la base de datos.
+La base de datos PostgreSQL se creará utilizando el archivo Dockerfile ubicado en ./Dump/Postgres.
+El archivo respaldo.sql ubicado en ./Docker/Postgres se utilizará para inicializar la base de datos con datos de ejemplo.
